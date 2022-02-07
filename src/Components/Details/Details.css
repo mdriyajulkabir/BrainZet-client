@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+.details-bg{
+    background-image: url('https://i.postimg.cc/43NCk35r/details-Bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 505px;
+}
+
+.details-bg img{
+    width: 1180px;
+    height: 500px;
+    margin-left: 25px;
+    /* padding-bottom: 20px; */
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 5px 5px 0px;
+}
+.details-container{
+    background-color: #e5f7f8;
+    width: 100%;
+}
+.details-nav{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    font-family: Circular Std;
+    font-size: 14px;
+}
+.details-description{
+    font-family: Circular Std;
+    color: rgba(86, 86, 86, 1);
+    font-size: 16px;
+    padding-right: 5px;
+}
+.city-details{
+    font-family: Circular Std;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #c4c3c3;
+    border-radius: 7px;
+}
+.details-img1{
+    width: 100%;
+    height: 194px;
+    border-radius: 10px;
+}
+.details-img2{
+    width: 100%;
+    height: 150px;
+    /* padding: 0px 10px; */
+    border-radius: 10px;
+    /* padding-right: 10px; */
+}
+.dis{
+    color: rgba(86, 86, 86, 1);
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.money-details{
+    font-family: Circular Std;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #c4c3c3;
+    border-radius: 10px;
+}
+.money-div{
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+.money-div2{
+    padding: 10px;
+}
+.art{
+    color: rgba(86, 86, 86, 1);
+    font-family: roboto;
+    font-size: 14px;
+}
+.article-img{
+    height: 220px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Circular Std;
+    border-radius: 10px;
+}
+.article-img h1{
+    color: rgba(255, 255, 255, 1);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 900;
+}

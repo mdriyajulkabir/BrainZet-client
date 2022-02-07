@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+.more-destination-container{
+    background-color: #fffdfd;
+    position: relative;
+}
+.more{
+    font-family: 'Allison', cursive;
+    font-size: 140px;
+    color: rgba(12, 162, 150, 1);
+    position: absolute;
+    top: 7%;
+    left: 45%;
+}
+
+.more-header{
+    font-family: Circular Std;
+    font-size: 80px;
+    font-weight: 900;
+    color: black;
+}
+.more-description-div{
+    display: flex;
+    justify-content: center;
+}
+.more-description{
+    width: 50%;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 20px;
+    color: black;
+    ;
+}
+.more-hr-container{
+    display: flex;
+    justify-content: center;
+}
+.more-hr{
+    margin-top: 10px;
+    width: 22px;
+    background-color: #CBE7E4;
+    border: 1px solid #CBE7E4;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+.more-img1{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Circular Std;
+}
+.more-img2{
+    height: 175px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Circular Std;
+}
+.more-img3{
+    height: 175px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Circular Std;
+}
+.more-img4{
+    height: 235px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Circular Std;
+}

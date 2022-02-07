@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+.banner-container{
+    background-image:linear-gradient(360deg,rgba(0, 0, 0, 0.6) 0% ,rgba(0, 0, 0, 0)100%), url('https://i.postimg.cc/Z4R4S2TH/ea17d44a65fc4a7842f8eea54fc41d14.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-header{
+    font-family: 'Allison', cursive;
+    color: #FFC700;
+    font-size: 130px;
+    font-weight: 600;
+    padding-left: 130px;
+    padding-top: 90px;
+}
+.banner-title{
+    font-family: Circular Std;
+    color: white;
+    padding-left: 130px;
+    font-size: 190px;
+}
+
+@media screen and (max-width: 415px) {
+    .banner-header{
+        font-family: 'Allison', cursive;
+        color: #FFC700;
+        font-size: 70px;
+        font-weight: 600;
+        padding-left: 70px;
+        padding-top: 90px;
+    }
+    .banner-title{
+        font-family: Circular Std;
+        color: white;
+        padding-left: 70px;
+        padding-bottom: 90px;
+        font-size: 100px;
+    }
+}
